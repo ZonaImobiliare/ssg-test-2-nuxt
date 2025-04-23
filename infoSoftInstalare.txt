@@ -19,10 +19,18 @@ Ma duc pe git hub copiez repozitorul git clone https://github.com/ZonaImobiliare
 Creem fisier index.html
 dam comanda git status si trebuie sa apara index.html su rosu ,adica git si-a dat seama ca sunt modificari in proiect
 comadan salvare in git hub
+0 script in shell SalvareSHELL.sh dam acordul permisiunilor     chmod +x SalvareSHELL.sh     trebuie sa fiu in folderul cu fisierul ./SalvareSHELL.sh  lansare fisier
+imi cere username =ZonaImobiliare  pass=Maxgit12345
 1  git add .     (salveaza tot proiectul)
 2  git status     (apare index.html cu verde inseamna ca a intrat sub urmarire pt salvare)
 3  git commit -m "feat:fisier nou de index"    salveaza fisierul
 4  git status    imi arata ca s-a salvat 1 fisier
 5  git push      impingem fisierul in git hub   mi-a cerut autorizatie de pe mozila 
-
 Te duci in setting tastezi file.eol si selectezi \n  in dreapta jos la langa venv trebuie sa am UTF-8 si LF
+
+Curs HTML 
+Ce este un TAG = <h1></h1>
+Ce se afla in interior este pagina principala
+<h1>PDetalii<strong> importante </strong> despe mine</h1>    importante apare bolduit intr-un tag putem introduce alt tag
+<br /> linie noua  nu are deschidere
+<img src="imagine.jpg"/>  punem imagine daca imagine se afala in source
