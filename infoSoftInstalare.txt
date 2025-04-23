@@ -1,0 +1,28 @@
+Instalare extensii
+Auto Rename Tag
+EsLint analizeaza corectitudiunea codului scris 
+Prettier Code formater iti va formata corect codul scris
+svg vizualizarea si manipularea fisierelor de tip svg ,fisiere folosite ca iconite
+Todo Tree O lista de lucru de facut ,de care nu trebuie sa uiti
+install node js Mergi pe situl lor vezi care este ultima versiune stabila https://nodejs.org/en
+dupa care mergi pe https://snapcraft.io/node si cauti versiunea stabila dupa care copiezi comanda acum este asa sudo snap install node --classic
+dupa care dai node js --version odata cu ea se instaleaza si npm --version(managerul de pachete pentru aplicatii web)
+Instalam GIMP (editor poze gratis)sudo apt update      sudo apt-get install gimp    apare in aplicatii
+https://squoosh.app/   se lucrezaa direct pe site salvezi pozele in format web 
+install git https://git-scm.com/downloads/linux  pentru linux(citeste pe site exista comenzi acolo)
+Ma duc pe git hub si creez un nou repozitory
+Cand intram prima data in folder Vs Code trebuie sa ii spunem Gitului ca folderul curent este baza repozitory(adica legam fisierele de pe calculator pe cloud git)
+dar nu a facut nimic in sensul de sus 
+git config --global user.name "Git-uac"
+git config --global user.email "zonaimobiliare@gmail.com"
+Ma duc pe git hub copiez repozitorul git clone https://github.com/ZonaImobiliare/ssg-test-2-nuxt.git
+Creem fisier index.html
+dam comanda git status si trebuie sa apara index.html su rosu ,adica git si-a dat seama ca sunt modificari in proiect
+comadan salvare in git hub
+1  git add .     (salveaza tot proiectul)
+2  git status     (apare index.html cu verde inseamna ca a intrat sub urmarire pt salvare)
+3  git commit -m "feat:fisier nou de index"    salveaza fisierul
+4  git status    imi arata ca s-a salvat 1 fisier
+5  git push      impingem fisierul in git hub   mi-a cerut autorizatie de pe mozila 
+
+Te duci in setting tastezi file.eol si selectezi \n  in dreapta jos la langa venv trebuie sa am UTF-8 si LF
